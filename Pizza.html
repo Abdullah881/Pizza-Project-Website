@@ -14,20 +14,31 @@
             <h1 style="margin: 0 0px 0 90px;" >Pizza Palace</h1>
             <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
             <form id="frmMenu">
-                <div class="menu left">
+                <div class="menu left" style="padding-left: 450px;">
                     <h3>Size:</h3>
                     <input class="size" type="radio" name="Size" value="Personal pizza">Personal Pizza<br>
                     <input class="size" type="radio" name="Size" value="Medium Pizza">Medium Pizza<br>
                     <input class="size" type="radio" name="Size" value="Large Pizza" checked>Large Pizza<br>
                     <input class="size" type="radio" name="Size" value="Extra Large Pizza">Extra Large Pizza<br>
-                    <input class="size" type="radio" name="Size" value="Super Large Pizza">Super Large Pizza<br>                </div>
-                <div class="menu right">
+                    <input class="size" type="radio" name="Size" value="Super Large Pizza">Super Large Pizza<br>                
+                </div>
+
+                <div class="menu center">
                     <h3>Toppings:</h3>
                     <input class="toppings" type="checkbox" name="Toppings" value="Chicken">Chicken<br>
                     <input class="toppings" type="checkbox" name="Toppings" value="Onions">Onions<br>
                     <input class="toppings" type="checkbox" name="Toppings" value="Pepper">Bell Pepper<br>
                     <input class="toppings" type="checkbox" name="Toppings" value="Pepperoni">Pepperoni<br>
-                    <input class="toppings" type="checkbox" name="Toppings" value="Cheese">Cheese<br>
+                    <input class="toppings" type="checkbox" name="Toppings" value="Cheese">Only Cheese<br>
+                </div>
+
+                <div class="menu right">
+                    <h3>More Toppings:</h3>
+                    <input class="toppings" type="checkbox" name="Toppings" value="Olive">Olive<br>
+                    <input class="toppings" type="checkbox" name="Toppings" value="Pineapple">Pineapple<br>
+                    <input class="toppings" type="checkbox" name="Toppings" value="Tomato">Tomato<br>
+                    <input class="toppings" type="checkbox" name="Toppings" value="Rocket">Orange<br><br>
+
                 </div>
                 <div id="cart">
                     <div id="showText"></div>
