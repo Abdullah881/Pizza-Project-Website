@@ -43,7 +43,22 @@
 }
 
 #btnOrder{
-    margin: 10px 0px 0px 100px;
+    margin: 10px 100px 0px 120px;
     width: 100px;
     height: 40px;
+}
+
+body{
+    background-color: aqua;
+
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
 }
