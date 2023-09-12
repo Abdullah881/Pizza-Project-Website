@@ -1,13 +1,13 @@
-#menuBG {
+/* #menuBG {
     width: 400px;
     height: 470px;
     margin: 10px auto;
 }
 
 #frmMenu{
-    width: 400px;
+    width: 500px;
     height: 200px;
-}
+} */
 
 #totalPrice {
     width: 200px;
@@ -16,7 +16,7 @@
     float: right;
 }
 
-.left {
+/* .left {
     width: 200px;
     height: 200px;
     float: left;
@@ -27,6 +27,34 @@
     height: 200px;
     float: right;
 }
+
+
+.center{
+    width: 200px;
+    height: 200px;
+    float: left;
+} */
+
+
+.left {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.right{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+ }
+
+
+.center{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
 
 #showText {
     width: 200px;
@@ -46,6 +74,8 @@
     margin: 10px 100px 0px 120px;
     width: 100px;
     height: 40px;
+    margin-left: 670px;
+    margin-right: 0px;
 }
 
 body{
@@ -56,9 +86,11 @@ body{
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: blue;
+    padding-left: 550px;
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: red;
 }
+
